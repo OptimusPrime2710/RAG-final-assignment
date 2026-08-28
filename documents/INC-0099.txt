@@ -1,0 +1,4 @@
+INC-0099
+Issue: Deleted products continue appearing in customer search results.
+Resolution: Corrected deletion events sent to the search index.
+Status: Resolved

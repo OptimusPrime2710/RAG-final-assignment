@@ -1,0 +1,4 @@
+INC-0121
+Issue: Agent cannot print a ticket conversation.
+Resolution: Fixed print stylesheet rules that hid conversation content.
+Status: Resolved

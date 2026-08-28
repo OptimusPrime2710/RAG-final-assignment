@@ -1,0 +1,4 @@
+INC-0067
+Issue: API pagination skips several records between pages.
+Resolution: Replaced offset pagination with stable cursor-based pagination.
+Status: Resolved

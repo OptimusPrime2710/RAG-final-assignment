@@ -1,0 +1,4 @@
+INC-0128
+Issue: Ticket search cannot find cases using their reference number.
+Resolution: Added ticket identifiers to the search index.
+Status: Resolved

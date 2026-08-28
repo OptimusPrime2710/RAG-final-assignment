@@ -1,0 +1,4 @@
+INC-0147
+Issue: Scheduled reports stopped arriving this week.
+Resolution: Restarted the report scheduler and repaired a failed job registration.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0013
+Issue: Two-factor authentication codes are rejected even when entered immediately.
+Resolution: Corrected time synchronization between the authentication service and verification server.
+Status: Resolved

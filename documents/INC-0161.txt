@@ -1,0 +1,4 @@
+INC-0161
+Issue: Application displays a blank page after the latest browser update.
+Resolution: Updated an incompatible frontend dependency.
+Status: Resolved

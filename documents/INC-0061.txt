@@ -1,0 +1,4 @@
+INC-0061
+Issue: API returns an empty customer list even though records exist.
+Resolution: Removed an incorrect default tenant filter from the API endpoint.
+Status: Resolved

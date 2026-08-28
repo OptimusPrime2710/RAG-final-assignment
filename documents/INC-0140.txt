@@ -1,0 +1,4 @@
+INC-0140
+Issue: Every few minutes my session seems to vanish and I have to start over.
+Resolution: Corrected the session timeout configuration and invalidated stale sessions.
+Status: Resolved

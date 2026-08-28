@@ -146,6 +146,7 @@ Validation:
 - Runtime configuration validation and integration gates validated.
 - Secret-safe configuration preflight validated.
 - Live JIRA MCP discovery succeeded with 3 tools after protocol compatibility fixes.
+- Exact incident retrieval validated against the current 200-document index.
 - MCP authentication and initialization handshake validated.
 - Restart/resume recovery validated without repeating completed tasks.
 - CLI input override conversion and validation validated.
@@ -499,3 +500,19 @@ Validation:
 
 Notes:
 - Do not print or commit the configured credentials. Rotate the exposed tokens after testing if they have been shared outside the intended environment.
+
+## Step 30 - Exact incident retrieval
+Status: COMPLETE
+
+Implemented:
+- Added hybrid lexical/vector ranking for offline and native Chroma search.
+- Added exact-phrase boosting and shared-term scoring for reliable incident lookup.
+- Added regression coverage for exact `INC-0005` issue-description retrieval.
+
+Tests:
+- Exact incident ranking and existing RAG storage tests.
+
+Validation:
+- Current 200-document index queried successfully.
+- `INC-0005.txt` ranked first for the exact issue sentence with score `11.0`.
+- Full regression suite passes: 61 passed.

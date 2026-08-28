@@ -1,0 +1,4 @@
+INC-0060
+Issue: Customer received an invoice for an order they cancelled before shipment.
+Resolution: Fixed a race condition between cancellation and invoice generation.
+Status: Resolved

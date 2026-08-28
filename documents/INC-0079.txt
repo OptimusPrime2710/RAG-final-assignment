@@ -1,0 +1,4 @@
+INC-0079
+Issue: Editing a customer record unexpectedly removes optional fields.
+Resolution: Fixed partial-update handling in the profile API.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0049
+Issue: Customers unsubscribe from marketing mail but continue receiving promotional messages.
+Resolution: Fixed synchronization between unsubscribe preferences and the campaign system.
+Status: Resolved

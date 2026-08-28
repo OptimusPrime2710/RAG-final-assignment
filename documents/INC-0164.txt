@@ -1,0 +1,4 @@
+INC-0164
+Issue: Form fields cannot be selected using the keyboard.
+Resolution: Corrected keyboard focus handling in the form components.
+Status: Resolved

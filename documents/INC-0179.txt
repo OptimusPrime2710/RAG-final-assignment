@@ -1,0 +1,4 @@
+INC-0179
+Issue: Automated maintenance task runs during business hours unexpectedly.
+Resolution: Fixed the scheduler timezone configuration.
+Status: Resolved

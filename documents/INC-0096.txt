@@ -1,0 +1,4 @@
+INC-0096
+Issue: Product descriptions containing special characters break search.
+Resolution: Fixed text normalization in the indexing pipeline.
+Status: Resolved

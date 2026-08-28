@@ -1,0 +1,4 @@
+INC-0033
+Issue: Image uploads fail with a generic server error.
+Resolution: Corrected an unsupported image-format validation rule.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0143
+Issue: Monthly report takes several minutes to finish.
+Resolution: Optimized aggregation queries and added indexes for reporting fields.
+Status: Resolved

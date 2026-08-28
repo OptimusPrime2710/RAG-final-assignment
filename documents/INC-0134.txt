@@ -1,0 +1,4 @@
+INC-0134
+Issue: My account signs itself out while I am actively working.
+Resolution: Corrected refresh-token rotation and session renewal.
+Status: Resolved

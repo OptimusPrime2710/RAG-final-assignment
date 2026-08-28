@@ -1,0 +1,4 @@
+INC-0126
+Issue: Customer receives an internal escalation note by email.
+Resolution: Corrected notification filtering so internal messages are excluded.
+Status: Resolved

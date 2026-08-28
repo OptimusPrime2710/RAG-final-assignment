@@ -1,0 +1,4 @@
+INC-0072
+Issue: Changing an email address causes the profile to revert after refreshing.
+Resolution: Fixed an asynchronous update job overwriting the new value.
+Status: Resolved

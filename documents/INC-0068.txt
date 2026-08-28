@@ -1,0 +1,4 @@
+INC-0068
+Issue: API accepts malformed phone numbers and later fails during processing.
+Resolution: Added input validation to the customer endpoint.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0032
+Issue: Customer cannot attach a document larger than ten megabytes.
+Resolution: Increased the configured upload-size limit and updated the reverse proxy setting.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0115
+Issue: Closed ticket unexpectedly becomes active again.
+Resolution: Fixed an automation rule that reopened tickets after customer replies were disabled.
+Status: Resolved

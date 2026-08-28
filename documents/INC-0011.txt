@@ -1,0 +1,4 @@
+INC-0011
+Issue: Customer enters the correct credentials but authentication reports an invalid password.
+Resolution: Removed an outdated password hash created during the identity migration.
+Status: Resolved

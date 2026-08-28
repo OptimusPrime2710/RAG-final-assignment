@@ -1,0 +1,4 @@
+INC-0138
+Issue: Login stays active on one device but constantly disappears on another.
+Resolution: Repaired device-specific refresh-token persistence.
+Status: Resolved

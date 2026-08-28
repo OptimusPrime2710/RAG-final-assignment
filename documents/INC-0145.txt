@@ -1,0 +1,4 @@
+INC-0145
+Issue: Excel report has columns shifted when customer names contain commas.
+Resolution: Corrected CSV quoting before spreadsheet conversion.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0199
+Issue: Customers see a temporary error page during routine deployments.
+Resolution: Added graceful connection draining and improved deployment health checks.
+Status: Resolved

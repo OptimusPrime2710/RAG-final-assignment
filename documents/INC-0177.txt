@@ -1,0 +1,4 @@
+INC-0177
+Issue: Scheduled cleanup job deletes records that should be retained.
+Resolution: Corrected the retention-date calculation.
+Status: Resolved

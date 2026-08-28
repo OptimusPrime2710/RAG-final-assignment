@@ -1,0 +1,4 @@
+INC-0175
+Issue: Queue backlog grows continuously even though workers are running.
+Resolution: Identified a poison message blocking consumers and moved it to the dead-letter queue.
+Status: Resolved

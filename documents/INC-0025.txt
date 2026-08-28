@@ -1,0 +1,4 @@
+INC-0025
+Issue: Opening the customer list causes the browser tab to freeze.
+Resolution: Added pagination so the application no longer loads thousands of records at once.
+Status: Resolved

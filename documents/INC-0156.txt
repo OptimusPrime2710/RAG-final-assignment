@@ -1,0 +1,4 @@
+INC-0156
+Issue: Shipment tracking stops updating after the package leaves the warehouse.
+Resolution: Corrected the carrier polling job.
+Status: Resolved

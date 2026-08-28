@@ -1,0 +1,4 @@
+INC-0108
+Issue: Time displayed in the application is different from the customer's local time.
+Resolution: Corrected timezone conversion in the frontend.
+Status: Resolved

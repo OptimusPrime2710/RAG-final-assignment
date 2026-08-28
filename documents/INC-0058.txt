@@ -1,0 +1,4 @@
+INC-0058
+Issue: Invoice is generated in the wrong currency.
+Resolution: Corrected currency selection based on the customer's billing region.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0105
+Issue: Customer cannot save notification preferences.
+Resolution: Fixed validation on the preference-management endpoint.
+Status: Resolved

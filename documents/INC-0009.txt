@@ -1,0 +1,4 @@
+INC-0009
+Issue: User cannot change their forgotten password because the recovery page keeps failing.
+Resolution: Repaired the password-reset endpoint and verified token generation.
+Status: Resolved

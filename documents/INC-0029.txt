@@ -1,0 +1,4 @@
+INC-0029
+Issue: Customers in one region experience much slower page loads than everyone else.
+Resolution: Corrected regional routing to use the nearest application cluster.
+Status: Resolved

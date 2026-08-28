@@ -1,0 +1,4 @@
+INC-0082
+Issue: Order appears as cancelled even though the warehouse shipped it.
+Resolution: Corrected the synchronization between warehouse status and order status.
+Status: Resolved

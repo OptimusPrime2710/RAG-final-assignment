@@ -1,0 +1,4 @@
+INC-0196
+Issue: Service becomes unavailable whenever a large batch import starts.
+Resolution: Isolated import processing from interactive application resources.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0142
+Issue: Large exports consume all available application memory.
+Resolution: Changed export processing to stream records rather than load everything at once.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0086
+Issue: Orders created through the mobile app do not appear in the web portal.
+Resolution: Fixed event synchronization between mobile and web order services.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0124
+Issue: Ticket timeline displays messages in the wrong order.
+Resolution: Corrected timestamp sorting for imported messages.
+Status: Resolved

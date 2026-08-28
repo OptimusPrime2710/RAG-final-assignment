@@ -1,0 +1,4 @@
+INC-0036
+Issue: Customer sees an upload progress bar stuck at ninety-nine percent.
+Resolution: Corrected the completion callback between storage and the web application.
+Status: Resolved

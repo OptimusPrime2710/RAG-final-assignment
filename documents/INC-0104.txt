@@ -1,0 +1,4 @@
+INC-0104
+Issue: Dashboard widgets return to their default positions after refresh.
+Resolution: Repaired layout preference storage.
+Status: Resolved

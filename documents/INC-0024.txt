@@ -1,0 +1,4 @@
+INC-0024
+Issue: Search results take around thirty seconds to appear.
+Resolution: Rebuilt the search index and removed an inefficient database scan.
+Status: Resolved

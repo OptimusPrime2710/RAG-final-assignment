@@ -1,0 +1,4 @@
+INC-0106
+Issue: Changes to account preferences are saved but not reflected immediately.
+Resolution: Added cache invalidation after preference updates.
+Status: Resolved

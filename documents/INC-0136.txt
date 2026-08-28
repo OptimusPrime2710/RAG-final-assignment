@@ -1,0 +1,4 @@
+INC-0136
+Issue: The phone app forgets my login every few minutes.
+Resolution: Updated the mobile token-refresh implementation.
+Status: Resolved

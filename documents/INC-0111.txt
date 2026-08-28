@@ -1,0 +1,4 @@
+INC-0111
+Issue: Customer cannot create a support ticket because the submit button does nothing.
+Resolution: Fixed a frontend validation error preventing submission.
+Status: Resolved

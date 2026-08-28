@@ -1,0 +1,4 @@
+INC-0038
+Issue: Attachment links in old tickets return not-found errors.
+Resolution: Migrated legacy files to the current storage bucket and repaired their references.
+Status: Resolved

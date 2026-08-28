@@ -1,0 +1,4 @@
+INC-0005
+Issue: Users are being forced to authenticate several times during the same work session.
+Resolution: Fixed the single-sign-on token renewal configuration.
+Status: Resolved

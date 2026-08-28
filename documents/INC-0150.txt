@@ -1,0 +1,4 @@
+INC-0150
+Issue: Generated report contains duplicate transactions.
+Resolution: Removed duplicate records from the reporting query.
+Status: Resolved

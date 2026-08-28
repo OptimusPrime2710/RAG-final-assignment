@@ -1,0 +1,4 @@
+INC-0014
+Issue: Verification code arrives after it has already expired.
+Resolution: Reduced SMS delivery latency by correcting the notification queue configuration.
+Status: Resolved

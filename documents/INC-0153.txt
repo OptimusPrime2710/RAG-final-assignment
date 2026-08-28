@@ -1,0 +1,4 @@
+INC-0153
+Issue: Inventory count does not change after an order is completed.
+Resolution: Repaired the inventory update event handler.
+Status: Resolved

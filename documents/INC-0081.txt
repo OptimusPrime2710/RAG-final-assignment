@@ -1,0 +1,4 @@
+INC-0081
+Issue: Customer cannot find an order that was placed yesterday.
+Resolution: Rebuilt the order search index and reindexed recent transactions.
+Status: Resolved

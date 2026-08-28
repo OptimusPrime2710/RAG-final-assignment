@@ -1,0 +1,4 @@
+INC-0122
+Issue: Ticket export contains only the first page of messages.
+Resolution: Corrected pagination in the export generator.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0010
+Issue: Account recovery works for some users but fails for accounts created recently.
+Resolution: Updated the identity service migration so newer accounts receive recovery credentials.
+Status: Resolved

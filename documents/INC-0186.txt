@@ -1,0 +1,4 @@
+INC-0186
+Issue: Customer belongs to the wrong organization after an account migration.
+Resolution: Corrected organization mapping during migration.
+Status: Resolved

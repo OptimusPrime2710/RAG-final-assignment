@@ -1,0 +1,4 @@
+INC-0046
+Issue: SMS alerts stopped arriving after the messaging provider changed configuration.
+Resolution: Updated the provider credentials and restored outbound messaging.
+Status: Resolved

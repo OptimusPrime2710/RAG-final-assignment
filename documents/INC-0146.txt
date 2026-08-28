@@ -1,0 +1,4 @@
+INC-0146
+Issue: Exported data uses UTC timestamps despite the account's local timezone.
+Resolution: Applied account timezone settings during export.
+Status: Resolved

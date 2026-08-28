@@ -1,0 +1,4 @@
+INC-0162
+Issue: Buttons overlap each other on smaller laptop screens.
+Resolution: Corrected responsive CSS breakpoints.
+Status: Resolved

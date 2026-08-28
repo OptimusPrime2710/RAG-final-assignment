@@ -1,0 +1,4 @@
+INC-0043
+Issue: Email alerts contain yesterday's information instead of the latest ticket state.
+Resolution: Fixed stale cached data used by the notification template.
+Status: Resolved

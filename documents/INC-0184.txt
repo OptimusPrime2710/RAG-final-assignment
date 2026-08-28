@@ -1,0 +1,4 @@
+INC-0184
+Issue: Deactivated user can still access the application.
+Resolution: Corrected account-status checks during authentication.
+Status: Resolved

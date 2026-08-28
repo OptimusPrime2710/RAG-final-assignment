@@ -1,0 +1,4 @@
+INC-0094
+Issue: Product filter for availability produces incorrect results.
+Resolution: Fixed the inventory-status filter query.
+Status: Resolved

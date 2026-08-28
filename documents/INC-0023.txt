@@ -1,0 +1,4 @@
+INC-0023
+Issue: Application becomes sluggish every afternoon when usage increases.
+Resolution: Increased application capacity and corrected connection-pool exhaustion.
+Status: Resolved

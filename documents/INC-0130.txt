@@ -1,0 +1,4 @@
+INC-0130
+Issue: SLA timers continue running after a ticket is resolved.
+Resolution: Fixed the SLA worker so resolved tickets stop accumulating elapsed time.
+Status: Resolved

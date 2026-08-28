@@ -1,0 +1,4 @@
+INC-0195
+Issue: Application requests occasionally time out without any obvious pattern.
+Resolution: Increased downstream timeout limits and fixed slow database queries.
+Status: Resolved

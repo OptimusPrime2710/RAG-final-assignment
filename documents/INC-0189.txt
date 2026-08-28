@@ -1,0 +1,4 @@
+INC-0189
+Issue: Invited employee receives no account activation email.
+Resolution: Fixed activation-event delivery to the email service.
+Status: Resolved

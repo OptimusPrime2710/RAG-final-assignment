@@ -1,0 +1,4 @@
+INC-0107
+Issue: User's preferred date format is ignored on exported reports.
+Resolution: Applied account locale settings to report generation.
+Status: Resolved

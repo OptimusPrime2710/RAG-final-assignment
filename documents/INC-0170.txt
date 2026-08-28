@@ -1,0 +1,4 @@
+INC-0170
+Issue: New interface styles are missing for some customers.
+Resolution: Fixed static asset deployment to all application regions.
+Status: Resolved

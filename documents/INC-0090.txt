@@ -1,0 +1,4 @@
+INC-0090
+Issue: Customer cannot complete checkout after removing an item from the cart.
+Resolution: Corrected cart total recalculation after item removal.
+Status: Resolved

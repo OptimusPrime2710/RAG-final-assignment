@@ -1,0 +1,4 @@
+INC-0026
+Issue: Analytics page stops responding when more than one filter is selected.
+Resolution: Optimized the filtering query and added appropriate composite indexes.
+Status: Resolved

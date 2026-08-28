@@ -1,0 +1,4 @@
+INC-0194
+Issue: Customers receive gateway errors while trying to open the portal.
+Resolution: Restarted the affected service and corrected reverse-proxy routing.
+Status: Resolved

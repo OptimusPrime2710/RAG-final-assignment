@@ -1,0 +1,4 @@
+INC-0020
+Issue: New employee can authenticate but cannot access any application pages.
+Resolution: Corrected the default role assignment in the provisioning workflow.
+Status: Resolved

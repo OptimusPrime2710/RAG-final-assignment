@@ -1,0 +1,4 @@
+INC-0141
+Issue: Report generation fails when the selected period contains many transactions.
+Resolution: Converted report generation to an asynchronous background operation.
+Status: Resolved

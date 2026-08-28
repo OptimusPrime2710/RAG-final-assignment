@@ -1,0 +1,4 @@
+INC-0089
+Issue: Product quantity changes in the cart are not reflected at checkout.
+Resolution: Fixed stale cart data being used by the checkout service.
+Status: Resolved

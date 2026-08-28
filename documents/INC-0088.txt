@@ -1,0 +1,4 @@
+INC-0088
+Issue: Order history is missing transactions from the previous month.
+Resolution: Repaired the historical-order indexing job.
+Status: Resolved

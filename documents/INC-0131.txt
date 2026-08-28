@@ -1,0 +1,4 @@
+INC-0131
+Issue: Customer says the application keeps throwing them back to the login screen.
+Resolution: Renewed authentication sessions and corrected refresh-token handling.
+Status: Resolved

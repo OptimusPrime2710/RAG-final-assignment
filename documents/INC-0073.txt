@@ -1,0 +1,4 @@
+INC-0073
+Issue: Phone number field refuses valid international numbers.
+Resolution: Updated phone-number validation to support international formats.
+Status: Resolved

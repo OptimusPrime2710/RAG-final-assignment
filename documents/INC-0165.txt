@@ -1,0 +1,4 @@
+INC-0165
+Issue: Screen reader does not announce validation errors.
+Resolution: Added appropriate accessibility labels and live-region attributes.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0062
+Issue: API occasionally returns HTTP 500 when creating a new account.
+Resolution: Added validation for missing optional profile fields.
+Status: Resolved

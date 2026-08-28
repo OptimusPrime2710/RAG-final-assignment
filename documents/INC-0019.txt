@@ -1,0 +1,4 @@
+INC-0019
+Issue: Customer gets an unauthorized error after logging in successfully.
+Resolution: Repaired missing application roles on the user's account.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0149
+Issue: Report totals differ between the dashboard and downloaded file.
+Resolution: Unified aggregation logic between dashboard and export services.
+Status: Resolved

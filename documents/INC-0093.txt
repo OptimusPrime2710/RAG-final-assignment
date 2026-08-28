@@ -1,0 +1,4 @@
+INC-0093
+Issue: Product prices shown in search differ from prices on the product page.
+Resolution: Corrected price-cache invalidation.
+Status: Resolved

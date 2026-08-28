@@ -1,0 +1,4 @@
+INC-0016
+Issue: User accidentally locked the account after several failed login attempts.
+Resolution: Unlocked the account and reset the failed-attempt counter.
+Status: Resolved

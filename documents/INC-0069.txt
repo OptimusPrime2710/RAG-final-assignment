@@ -1,0 +1,4 @@
+INC-0069
+Issue: External integration stopped receiving updates after a deployment.
+Resolution: Restored the missing event subscription in the deployment configuration.
+Status: Resolved

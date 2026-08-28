@@ -1,0 +1,4 @@
+INC-0017
+Issue: Employee cannot sign in after changing their corporate password.
+Resolution: Forced directory synchronization between the identity provider and application.
+Status: Resolved

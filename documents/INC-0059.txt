@@ -1,0 +1,4 @@
+INC-0059
+Issue: Tax amount on invoices is missing for customers in one state.
+Resolution: Updated the regional tax configuration.
+Status: Resolved

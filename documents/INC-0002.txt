@@ -1,0 +1,4 @@
+INC-0002
+Issue: The mobile application repeatedly signs the customer out while they are using it.
+Resolution: Updated the mobile authentication library and invalidated corrupted refresh tokens.
+Status: Resolved

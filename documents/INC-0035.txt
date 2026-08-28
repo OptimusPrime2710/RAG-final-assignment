@@ -1,0 +1,4 @@
+INC-0035
+Issue: Dragging multiple documents into the upload area causes only the first one to appear.
+Resolution: Fixed the frontend multi-file upload handler.
+Status: Resolved

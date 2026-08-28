@@ -1,0 +1,4 @@
+INC-0056
+Issue: Subscription renewal charged the customer the previous plan price.
+Resolution: Corrected the pricing cache used by the renewal worker.
+Status: Resolved

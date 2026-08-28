@@ -1,0 +1,4 @@
+INC-0004
+Issue: Login succeeds but the application immediately returns the user to the sign-in screen.
+Resolution: Removed an expired browser cookie and regenerated the authentication session.
+Status: Resolved

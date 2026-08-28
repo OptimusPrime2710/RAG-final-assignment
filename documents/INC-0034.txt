@@ -1,0 +1,4 @@
+INC-0034
+Issue: Files upload successfully but cannot be downloaded afterward.
+Resolution: Fixed incorrect object-storage access permissions.
+Status: Resolved

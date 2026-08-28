@@ -1,0 +1,4 @@
+INC-0154
+Issue: Stock is shown as available even though the warehouse has none.
+Resolution: Corrected delayed inventory synchronization.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0080
+Issue: Bulk profile updates fail halfway through the operation.
+Resolution: Increased transaction limits and added retry handling for individual records.
+Status: Resolved

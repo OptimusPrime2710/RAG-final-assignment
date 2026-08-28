@@ -1,0 +1,4 @@
+INC-0100
+Issue: Searching by a partial product name returns no results.
+Resolution: Enabled prefix matching in the product search configuration.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0144
+Issue: CSV download contains truncated rows.
+Resolution: Fixed escaping of newline characters in exported fields.
+Status: Resolved

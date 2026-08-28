@@ -1,0 +1,4 @@
+INC-0190
+Issue: Customer cannot accept an invitation because their email is already registered.
+Resolution: Added handling for existing accounts during invitation acceptance.
+Status: Resolved

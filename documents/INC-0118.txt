@@ -1,0 +1,4 @@
+INC-0118
+Issue: Tickets are being assigned to the wrong support team.
+Resolution: Updated routing rules based on product category.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0102
+Issue: Dark mode preference resets whenever the browser is reopened.
+Resolution: Corrected synchronization between local preferences and the user profile.
+Status: Resolved
