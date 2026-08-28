@@ -18,6 +18,7 @@ from rag_framework.tools.chroma import ChromaStore
 from rag_framework.tools.document import index_directory
 from rag_framework.tools.rag_registry import register_rag_tools
 from rag_framework.tools.jira_mcp import JiraMCPAdapter
+from rag_framework.query_service import QueryService
 
 
 def _apply_user_inputs(plan, assignments: list[str]) -> None:
@@ -79,6 +80,12 @@ def build_parser() -> argparse.ArgumentParser:
     search.add_argument("query")
     search.add_argument("--top-k", type=int, default=5)
     search.add_argument("--chroma-dir", type=Path)
+
+    query = subparsers.add_parser("query", help="run a simple or complex evidence-based query")
+    query.add_argument("request")
+    query.add_argument("--top-k", type=int, default=5)
+    query.add_argument("--chroma-dir", type=Path)
+    query.add_argument("--live-model", action="store_true", help="use configured OpenRouter for complex-query synthesis")
 
     config = subparsers.add_parser("config-check", help="validate configured runtime integrations")
     config.add_argument("--openrouter", action="store_true", help="require OpenRouter settings")
@@ -144,6 +151,19 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "search":
         settings = load_settings()
         result = ChromaStore(args.chroma_dir or settings.chroma_persist_directory).search_similar(args.query, args.top_k)
+        print(json.dumps(result, indent=2))
+    elif args.command == "query":
+        settings = load_settings()
+        final_model_call = None
+        if args.live_model:
+            settings.validate_for(openrouter=True)
+            gateway = OpenRouterGateway(settings)
+            model = ModelRegistry(settings).resolve(settings.executor_model_size)
+            final_model_call = lambda evidence: gateway.complete(model, [
+                {"role": "system", "content": "Return a concise JSON answer using only the supplied evidence. If evidence is insufficient, return No response found."},
+                {"role": "user", "content": json.dumps(evidence)},
+            ])
+        result = QueryService(ChromaStore(args.chroma_dir or settings.chroma_persist_directory), final_model_call).execute(args.request, args.top_k)
         print(json.dumps(result, indent=2))
     elif args.command == "config-check":
         settings = load_settings()

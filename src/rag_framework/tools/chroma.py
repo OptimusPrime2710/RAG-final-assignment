@@ -19,8 +19,9 @@ def lexical_score(query: str, text: str) -> float:
     """Score exact phrases and shared terms for reliable incident lookup."""
     normalized_query = " ".join(query.lower().split())
     normalized_text = " ".join(text.lower().split())
-    query_terms = set(re.findall(r"[a-z0-9]+", normalized_query))
-    text_terms = set(re.findall(r"[a-z0-9]+", normalized_text))
+    ignored = {"a", "an", "and", "are", "be", "by", "for", "from", "has", "in", "is", "it", "of", "on", "or", "the", "to", "was", "with", "issue", "resolution", "status", "resolved"}
+    query_terms = {term for term in re.findall(r"[a-z0-9]+", normalized_query) if term not in ignored and not re.fullmatch(r"inc\d+", term)}
+    text_terms = {term for term in re.findall(r"[a-z0-9]+", normalized_text) if term not in ignored and not re.fullmatch(r"inc\d+", term)}
     overlap = len(query_terms & text_terms) / max(len(query_terms), 1)
     exact_phrase = 1.0 if normalized_query and normalized_query in normalized_text else 0.0
     return exact_phrase * 10.0 + overlap
@@ -55,7 +56,8 @@ class ChromaStore:
             ),
             reverse=True,
         )
-        return [{"document_id": record["document_id"], "text": record["text"], "metadata": record["metadata"], "score": lexical_score(query, record["text"])} for record in ranked[:top_k]]
+        evidenced = [record for record in ranked if lexical_score(query, record["text"]) > 0]
+        return [{"document_id": record["document_id"], "text": record["text"], "metadata": record["metadata"], "score": lexical_score(query, record["text"])} for record in evidenced[:top_k]]
 
     def validate_collection(self) -> dict[str, Any]:
         return {"valid": all("embedding" in record for record in self.records), "count": len(self.records)}

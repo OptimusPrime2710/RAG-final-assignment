@@ -52,6 +52,15 @@ rag-framework execute 001 --live-jira
 
 This performs MCP initialization and `tools/list` discovery before execution. Offline commands do not contact Jira.
 
+Run a controlled simple or complex business query:
+
+```powershell
+python -m rag_framework.cli query "Users are being forced to authenticate several times during the same work session."
+python -m rag_framework.cli query "What is the average word count in the top 5 documents similar to INC-0005?" --top-k 5 --live-model
+```
+
+Simple queries return retrieved evidence. Complex queries compute from retrieved evidence and may use OpenRouter for final JSON synthesis when `--live-model` is enabled. If no matching evidence exists, the result is `No response found`; no model call is made for that case.
+
 Override declared plan inputs at execution time with repeated `--input` options:
 
 ```powershell

@@ -516,3 +516,21 @@ Validation:
 - Current 200-document index queried successfully.
 - `INC-0005.txt` ranked first for the exact issue sentence with score `11.0`.
 - Full regression suite passes: 61 passed.
+
+## Step 31 - Evidence-based complex queries
+Status: COMPLETE
+
+Implemented:
+- Added the `query` command for simple and computation-oriented business requests.
+- Added explicit `No response found` behavior when evidence is absent.
+- Added incident-ID anchoring for similar-document requests.
+- Added deterministic average word-count computation from retrieved evidence.
+- Added optional OpenRouter synthesis only after retrieval returns evidence.
+
+Tests:
+- Simple exact retrieval, unknown incident handling, complex averaging, and model synthesis tests.
+
+Validation:
+- Exact current-corpus query returns `INC-0005.txt` first with score `11.0`.
+- Focused query tests pass: 4 passed.
+- Full regression suite pending final run.
