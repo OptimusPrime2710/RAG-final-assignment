@@ -1,0 +1,4 @@
+INC-0074
+Issue: User cannot delete an obsolete address from their profile.
+Resolution: Corrected permissions on the address-management endpoint.
+Status: Resolved

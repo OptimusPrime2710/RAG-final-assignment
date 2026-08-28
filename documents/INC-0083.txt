@@ -1,0 +1,4 @@
+INC-0083
+Issue: Shipment tracking number is missing from completed orders.
+Resolution: Replayed the carrier integration event for affected shipments.
+Status: Resolved

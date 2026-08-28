@@ -1,0 +1,4 @@
+INC-0113
+Issue: Ticket attachment uploads successfully but is not visible to the support agent.
+Resolution: Fixed attachment metadata synchronization.
+Status: Resolved

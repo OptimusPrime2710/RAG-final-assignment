@@ -1,0 +1,4 @@
+INC-0084
+Issue: Order confirmation page shows the wrong delivery address.
+Resolution: Fixed address selection during order creation.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0176
+Issue: Retry process keeps processing the same failed record forever.
+Resolution: Added a maximum retry count and dead-letter handling.
+Status: Resolved

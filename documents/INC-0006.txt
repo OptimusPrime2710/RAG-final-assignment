@@ -1,0 +1,4 @@
+INC-0006
+Issue: Password reset email never arrives in the customer's mailbox.
+Resolution: Corrected the outbound email configuration and resent the password-reset message.
+Status: Resolved

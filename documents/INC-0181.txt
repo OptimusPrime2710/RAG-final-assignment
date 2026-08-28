@@ -1,0 +1,4 @@
+INC-0181
+Issue: Customer receives an error saying their account does not exist.
+Resolution: Corrected account lookup after a database migration.
+Status: Resolved

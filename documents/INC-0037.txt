@@ -1,0 +1,4 @@
+INC-0037
+Issue: Downloaded spreadsheet opens with corrupted formatting.
+Resolution: Fixed the report-generation library and regenerated the spreadsheet.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0047
+Issue: Notification emails have broken links pointing to an old domain.
+Resolution: Updated the notification template with the current application URL.
+Status: Resolved

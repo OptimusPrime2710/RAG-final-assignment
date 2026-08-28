@@ -1,0 +1,4 @@
+INC-0110
+Issue: Scheduled preferences are executed according to server time rather than user time.
+Resolution: Updated the scheduler to use each account's configured timezone.
+Status: Resolved

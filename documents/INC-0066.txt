@@ -1,0 +1,4 @@
+INC-0066
+Issue: Webhook delivery fails whenever the destination responds slowly.
+Resolution: Increased the timeout and implemented asynchronous retry handling.
+Status: Resolved

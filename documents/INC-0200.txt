@@ -1,0 +1,4 @@
+INC-0200
+Issue: Support team reports intermittent failures that disappear after retrying the request.
+Resolution: Identified an unstable database connection pool and corrected connection recycling.
+Status: Resolved

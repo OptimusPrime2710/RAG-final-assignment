@@ -1,0 +1,4 @@
+INC-0071
+Issue: Customer profile changes are not visible to other agents.
+Resolution: Fixed distributed cache invalidation for profile updates.
+Status: Resolved

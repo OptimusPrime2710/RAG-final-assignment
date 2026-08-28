@@ -1,0 +1,4 @@
+INC-0031
+Issue: Uploaded PDF files disappear after the upload appears to finish.
+Resolution: Repaired object-storage permissions for the upload service.
+Status: Resolved

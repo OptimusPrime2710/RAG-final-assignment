@@ -1,0 +1,4 @@
+INC-0137
+Issue: I can log in but am kicked out almost immediately afterward.
+Resolution: Corrected a mismatch between identity-provider and application session expiry.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0185
+Issue: Deleted account continues appearing in administrative searches.
+Resolution: Fixed indexing of account deletion events.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0055
+Issue: Refund was approved but the money never appeared in the customer's account.
+Resolution: Resubmitted the failed refund transaction to the payment processor.
+Status: Resolved

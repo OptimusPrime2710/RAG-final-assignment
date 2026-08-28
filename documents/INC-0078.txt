@@ -1,0 +1,4 @@
+INC-0078
+Issue: Required profile fields are not marked when creating an account.
+Resolution: Corrected frontend validation metadata.
+Status: Resolved

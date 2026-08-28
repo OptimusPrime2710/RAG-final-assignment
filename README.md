@@ -73,6 +73,8 @@ results = store.search_similar("cancellation policy", top_k=5)
 
 `top_k` defaults to 5 and can be overridden through plan inputs. Re-indexing skips unchanged files. A persisted plan can be loaded with `PlanStore` and passed back to the Orchestrator to resume incomplete work. JIRA operations use the same Tool Registry interface as Python tools and are currently represented by a mockable MCP adapter.
 
+Search uses hybrid ranking: exact phrases and shared incident terms are ranked ahead of unrelated vector matches. This ensures an exact issue description such as an `INC-0005` sentence returns that incident first.
+
 The default offline `ChromaStore` needs no service dependency. Install the `rag` extra to use `NativeChromaStore` with a local ChromaDB `PersistentClient`.
 
 ## Project layout

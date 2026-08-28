@@ -1,0 +1,4 @@
+INC-0133
+Issue: I have to enter my credentials repeatedly throughout the day.
+Resolution: Fixed premature session invalidation in the identity service.
+Status: Resolved

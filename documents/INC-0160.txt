@@ -1,0 +1,4 @@
+INC-0160
+Issue: Delivery estimate is several days earlier than the actual carrier estimate.
+Resolution: Updated delivery-time calculations using current carrier service levels.
+Status: Resolved

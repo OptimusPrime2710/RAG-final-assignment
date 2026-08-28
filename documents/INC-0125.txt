@@ -1,0 +1,4 @@
+INC-0125
+Issue: Internal agent notes are visible to customers.
+Resolution: Fixed the message visibility flag and audited affected tickets.
+Status: Resolved

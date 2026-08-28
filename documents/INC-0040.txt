@@ -1,0 +1,4 @@
+INC-0040
+Issue: A document is uploaded twice whenever the customer clicks Submit quickly.
+Resolution: Added request idempotency to prevent duplicate uploads.
+Status: Resolved

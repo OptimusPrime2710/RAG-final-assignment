@@ -1,0 +1,4 @@
+INC-0095
+Issue: Customers cannot search using SKU numbers.
+Resolution: Added SKU fields to the search index.
+Status: Resolved

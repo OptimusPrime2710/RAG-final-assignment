@@ -1,0 +1,4 @@
+INC-0116
+Issue: Customer replies to a ticket but the response never appears in the conversation.
+Resolution: Repaired inbound email parsing for the ticket mailbox.
+Status: Resolved

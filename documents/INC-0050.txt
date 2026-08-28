@@ -1,0 +1,4 @@
+INC-0050
+Issue: Ticket closure emails are sent even when the ticket is reopened immediately.
+Resolution: Added state validation before sending closure notifications.
+Status: Resolved

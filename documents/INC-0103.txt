@@ -1,0 +1,4 @@
+INC-0103
+Issue: Language selection changes back to English after every login.
+Resolution: Fixed locale persistence in the account settings service.
+Status: Resolved

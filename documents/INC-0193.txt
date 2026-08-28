@@ -1,0 +1,4 @@
+INC-0193
+Issue: Multiple users cannot access the application at the same time.
+Resolution: Restored a failed application instance and corrected health-check configuration.
+Status: Resolved

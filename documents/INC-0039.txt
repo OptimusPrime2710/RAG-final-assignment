@@ -1,0 +1,4 @@
+INC-0039
+Issue: Customer receives an error when uploading a file with accented characters in its filename.
+Resolution: Updated filename encoding to support Unicode characters.
+Status: Resolved

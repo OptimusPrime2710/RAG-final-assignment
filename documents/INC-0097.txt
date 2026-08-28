@@ -1,0 +1,4 @@
+INC-0097
+Issue: Search suggestions stop appearing after the user types several characters.
+Resolution: Increased the suggestion-service timeout and optimized the lookup query.
+Status: Resolved

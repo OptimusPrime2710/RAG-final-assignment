@@ -1,0 +1,4 @@
+INC-0168
+Issue: Browser console shows errors when navigating away from the dashboard.
+Resolution: Corrected asynchronous component cleanup.
+Status: Resolved

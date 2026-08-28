@@ -1,0 +1,4 @@
+INC-0148
+Issue: Automated report is sent to an outdated email address.
+Resolution: Updated the recipient lookup to use the current account contact.
+Status: Resolved

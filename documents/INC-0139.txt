@@ -1,0 +1,4 @@
+INC-0139
+Issue: The customer portal repeatedly asks me to authenticate during one visit.
+Resolution: Fixed session renewal failures caused by an expired signing key.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0174
+Issue: Overnight synchronization does not update all customer records.
+Resolution: Fixed pagination in the synchronization worker.
+Status: Resolved

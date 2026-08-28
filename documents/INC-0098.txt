@@ -1,0 +1,4 @@
+INC-0098
+Issue: Search results change dramatically when the same phrase is typed with different capitalization.
+Resolution: Added case-insensitive normalization to the search analyzer.
+Status: Resolved

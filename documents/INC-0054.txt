@@ -1,0 +1,4 @@
+INC-0054
+Issue: Credit card payment is declined for cards that work elsewhere.
+Resolution: Removed an incorrect fraud-rule configuration affecting legitimate transactions.
+Status: Resolved

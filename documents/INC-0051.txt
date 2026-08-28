@@ -1,0 +1,4 @@
+INC-0051
+Issue: Invoice total does not match the sum of the individual line items.
+Resolution: Corrected rounding logic in the invoice calculation service.
+Status: Resolved

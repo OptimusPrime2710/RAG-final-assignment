@@ -1,0 +1,4 @@
+INC-0028
+Issue: Exporting a large report causes the entire web interface to become unresponsive.
+Resolution: Moved report generation to a background worker.
+Status: Resolved

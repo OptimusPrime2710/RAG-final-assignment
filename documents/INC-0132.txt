@@ -1,0 +1,4 @@
+INC-0132
+Issue: The program forgets who I am after a short period of inactivity.
+Resolution: Increased idle-session duration and corrected token expiration settings.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0015
+Issue: Authenticator application stopped generating codes accepted by the service.
+Resolution: Reset the customer's MFA secret and enrolled the device again.
+Status: Resolved

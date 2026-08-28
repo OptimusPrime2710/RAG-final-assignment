@@ -1,0 +1,4 @@
+INC-0092
+Issue: Newly created products do not appear in customer searches.
+Resolution: Fixed the scheduled search-index synchronization job.
+Status: Resolved

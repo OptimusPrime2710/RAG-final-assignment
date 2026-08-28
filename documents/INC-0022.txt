@@ -1,0 +1,4 @@
+INC-0022
+Issue: Reports are extremely slow when the customer selects a large date range.
+Resolution: Optimized the reporting query and added an index on the transaction timestamp.
+Status: Resolved

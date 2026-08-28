@@ -1,0 +1,4 @@
+INC-0008
+Issue: Reset link says it is no longer valid even though it was just requested.
+Resolution: Corrected server clock synchronization and regenerated the reset token.
+Status: Resolved

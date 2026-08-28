@@ -1,0 +1,4 @@
+INC-0030
+Issue: The service periodically becomes unavailable for several minutes during peak traffic.
+Resolution: Increased autoscaling capacity and corrected the health-check threshold.
+Status: Resolved

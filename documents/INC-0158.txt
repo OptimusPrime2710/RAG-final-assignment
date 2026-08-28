@@ -1,0 +1,4 @@
+INC-0158
+Issue: Customer cannot select express shipping even though the destination qualifies.
+Resolution: Corrected regional shipping eligibility rules.
+Status: Resolved

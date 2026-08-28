@@ -1,0 +1,4 @@
+INC-0117
+Issue: Agent cannot assign a ticket to a particular support queue.
+Resolution: Corrected queue-assignment permissions.
+Status: Resolved

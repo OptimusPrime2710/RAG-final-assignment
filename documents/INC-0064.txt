@@ -1,0 +1,4 @@
+INC-0064
+Issue: API responses contain outdated customer information.
+Resolution: Corrected cache invalidation after customer profile updates.
+Status: Resolved

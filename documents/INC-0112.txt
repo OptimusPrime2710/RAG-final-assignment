@@ -1,0 +1,4 @@
+INC-0112
+Issue: New ticket is created twice when the customer clicks Submit more than once.
+Resolution: Added idempotency protection to ticket creation.
+Status: Resolved

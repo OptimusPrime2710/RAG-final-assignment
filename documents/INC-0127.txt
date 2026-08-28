@@ -1,0 +1,4 @@
+INC-0127
+Issue: Ticket tags disappear after the ticket is edited.
+Resolution: Fixed tag persistence in the ticket update operation.
+Status: Resolved

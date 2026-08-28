@@ -3,6 +3,7 @@
 import hashlib
 import json
 import math
+import re
 from pathlib import Path
 from typing import Any
 
@@ -12,6 +13,17 @@ def generate_embedding(text: str, dimensions: int = 64) -> list[float]:
     values = [(digest[index % len(digest)] / 255.0) for index in range(dimensions)]
     norm = math.sqrt(sum(value * value for value in values)) or 1.0
     return [value / norm for value in values]
+
+
+def lexical_score(query: str, text: str) -> float:
+    """Score exact phrases and shared terms for reliable incident lookup."""
+    normalized_query = " ".join(query.lower().split())
+    normalized_text = " ".join(text.lower().split())
+    query_terms = set(re.findall(r"[a-z0-9]+", normalized_query))
+    text_terms = set(re.findall(r"[a-z0-9]+", normalized_text))
+    overlap = len(query_terms & text_terms) / max(len(query_terms), 1)
+    exact_phrase = 1.0 if normalized_query and normalized_query in normalized_text else 0.0
+    return exact_phrase * 10.0 + overlap
 
 
 class ChromaStore:
@@ -35,8 +47,15 @@ class ChromaStore:
 
     def search_similar(self, query: str, top_k: int = 5) -> list[dict[str, Any]]:
         query_embedding = generate_embedding(query)
-        ranked = sorted(self.records, key=lambda record: sum(a * b for a, b in zip(query_embedding, record["embedding"])), reverse=True)
-        return [{"document_id": record["document_id"], "text": record["text"], "metadata": record["metadata"], "score": sum(a * b for a, b in zip(query_embedding, record["embedding"]))} for record in ranked[:top_k]]
+        ranked = sorted(
+            self.records,
+            key=lambda record: (
+                lexical_score(query, record["text"]),
+                sum(a * b for a, b in zip(query_embedding, record["embedding"])),
+            ),
+            reverse=True,
+        )
+        return [{"document_id": record["document_id"], "text": record["text"], "metadata": record["metadata"], "score": lexical_score(query, record["text"])} for record in ranked[:top_k]]
 
     def validate_collection(self) -> dict[str, Any]:
         return {"valid": all("embedding" in record for record in self.records), "count": len(self.records)}
@@ -60,15 +79,20 @@ class NativeChromaStore:
         )
 
     def search_similar(self, query: str, top_k: int = 5) -> list[dict[str, Any]]:
-        result = self.collection.query(query_embeddings=[generate_embedding(query)], n_results=top_k)
+        result = self.collection.query(query_embeddings=[generate_embedding(query)], n_results=self.collection.count())
         ids = result.get("ids", [[]])[0]
         documents = result.get("documents", [[]])[0]
         metadatas = result.get("metadatas", [[]])[0]
         distances = result.get("distances", [[]])[0]
-        return [
-            {"document_id": identifier, "text": documents[index], "metadata": metadatas[index], "distance": distances[index] if distances else None}
-            for index, identifier in enumerate(ids)
-        ]
+        ranked = sorted(
+            [
+                {"document_id": identifier, "text": documents[index], "metadata": metadatas[index], "distance": distances[index] if distances else None}
+                for index, identifier in enumerate(ids)
+            ],
+            key=lambda result: lexical_score(query, result["text"]),
+            reverse=True,
+        )
+        return ranked[:top_k]
 
     def validate_collection(self) -> dict[str, Any]:
         count = self.collection.count()

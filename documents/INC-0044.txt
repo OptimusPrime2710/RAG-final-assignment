@@ -1,0 +1,4 @@
+INC-0044
+Issue: Support agents stopped receiving new-ticket notifications.
+Resolution: Corrected the subscription filter for the support queue.
+Status: Resolved

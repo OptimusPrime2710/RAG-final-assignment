@@ -1,0 +1,4 @@
+INC-0085
+Issue: Customer cannot cancel an order that has not shipped yet.
+Resolution: Corrected the order-state transition rules.
+Status: Resolved

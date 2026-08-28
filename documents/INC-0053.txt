@@ -1,0 +1,4 @@
+INC-0053
+Issue: Payment remains pending even though the bank has approved the transaction.
+Resolution: Replayed the missing payment-provider callback.
+Status: Resolved

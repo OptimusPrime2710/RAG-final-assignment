@@ -1,0 +1,4 @@
+INC-0173
+Issue: Data synchronization job stops halfway through large imports.
+Resolution: Increased worker memory and added checkpoint-based processing.
+Status: Resolved

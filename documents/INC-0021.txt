@@ -1,0 +1,4 @@
+INC-0021
+Issue: Dashboard takes more than a minute to load for a normal account.
+Resolution: Added an index to the dashboard query and reduced unnecessary database joins.
+Status: Resolved

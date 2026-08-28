@@ -1,0 +1,4 @@
+INC-0155
+Issue: Product becomes unavailable in one store but remains available online.
+Resolution: Fixed synchronization between regional inventory systems.
+Status: Resolved

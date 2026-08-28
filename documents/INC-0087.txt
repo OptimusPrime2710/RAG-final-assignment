@@ -1,0 +1,4 @@
+INC-0087
+Issue: Customer receives two confirmation emails for one purchase.
+Resolution: Added duplicate-event protection to the confirmation service.
+Status: Resolved

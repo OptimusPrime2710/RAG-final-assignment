@@ -1,0 +1,4 @@
+INC-0012
+Issue: Login page displays a blank screen after submitting credentials.
+Resolution: Fixed a frontend error caused by an incompatible authentication response.
+Status: Resolved

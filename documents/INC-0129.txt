@@ -1,0 +1,4 @@
+INC-0129
+Issue: Bulk ticket assignment fails when selecting more than fifty cases.
+Resolution: Increased batch-processing limits and added chunked assignment.
+Status: Resolved

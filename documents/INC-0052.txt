@@ -1,0 +1,4 @@
+INC-0052
+Issue: Customer was charged twice for a single order.
+Resolution: Identified duplicate payment requests and refunded the second charge.
+Status: Resolved

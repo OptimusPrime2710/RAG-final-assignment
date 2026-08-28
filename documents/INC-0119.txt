@@ -1,0 +1,4 @@
+INC-0119
+Issue: Ticket priority changes back to normal after an agent marks it urgent.
+Resolution: Fixed an automation that overwrote manually assigned priority.
+Status: Resolved

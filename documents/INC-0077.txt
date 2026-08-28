@@ -1,0 +1,4 @@
+INC-0077
+Issue: Customer sees another person's contact details in the profile screen.
+Resolution: Fixed a tenant isolation bug in the profile lookup.
+Status: Resolved

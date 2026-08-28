@@ -1,0 +1,4 @@
+INC-0187
+Issue: User invitation link sends the employee to an invalid page.
+Resolution: Updated invitation URLs after the application domain migration.
+Status: Resolved

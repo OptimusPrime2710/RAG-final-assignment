@@ -1,0 +1,4 @@
+INC-0003
+Issue: Customer cannot remain logged into the portal for more than a few minutes.
+Resolution: Increased the session lifetime and repaired an incorrect identity-provider timeout.
+Status: Resolved

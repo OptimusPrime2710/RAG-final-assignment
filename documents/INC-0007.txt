@@ -1,0 +1,4 @@
+INC-0007
+Issue: Customer receives the password recovery message several hours after requesting it.
+Resolution: Removed a mail-queue delay and restarted the notification worker.
+Status: Resolved

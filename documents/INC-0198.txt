@@ -1,0 +1,4 @@
+INC-0198
+Issue: API health check reports failure even though the service is operating normally.
+Resolution: Updated the health-check endpoint to exclude an unavailable optional dependency.
+Status: Resolved

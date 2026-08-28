@@ -1,0 +1,4 @@
+INC-0163
+Issue: Menu disappears when browser zoom is increased.
+Resolution: Fixed responsive navigation behavior.
+Status: Resolved

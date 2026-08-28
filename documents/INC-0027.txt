@@ -1,0 +1,4 @@
+INC-0027
+Issue: API requests become increasingly slow over the course of the day.
+Resolution: Fixed a database connection leak that was exhausting the connection pool.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0091
+Issue: Search for a product returns unrelated items instead of the requested model.
+Resolution: Rebuilt product-search indexes and corrected relevance configuration.
+Status: Resolved

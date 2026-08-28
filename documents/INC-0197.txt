@@ -1,0 +1,4 @@
+INC-0197
+Issue: Users in a specific region cannot reach the application.
+Resolution: Corrected regional DNS routing.
+Status: Resolved

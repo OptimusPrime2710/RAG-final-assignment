@@ -1,0 +1,4 @@
+INC-0152
+Issue: Warehouse marks an item shipped but the customer portal still says processing.
+Resolution: Fixed carrier-status event processing.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0018
+Issue: SSO authentication works in one browser but fails in another.
+Resolution: Removed an incompatible browser extension and updated the SSO callback configuration.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0101
+Issue: Customer's saved settings disappear after signing out.
+Resolution: Fixed persistence of preferences to the account service.
+Status: Resolved

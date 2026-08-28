@@ -1,0 +1,4 @@
+INC-0167
+Issue: Application freezes after repeatedly opening and closing a modal.
+Resolution: Fixed a frontend memory leak in modal cleanup.
+Status: Resolved

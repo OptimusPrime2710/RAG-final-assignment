@@ -1,0 +1,4 @@
+INC-0075
+Issue: Customer's name displays differently on invoices and the account page.
+Resolution: Standardized profile-name formatting across billing and account services.
+Status: Resolved

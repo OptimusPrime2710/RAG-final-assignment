@@ -1,0 +1,4 @@
+INC-0172
+Issue: Scheduled task executes twice every morning.
+Resolution: Removed a duplicate scheduler registration.
+Status: Resolved

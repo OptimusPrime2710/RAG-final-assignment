@@ -1,0 +1,4 @@
+INC-0109
+Issue: Users in different regions see dates shifted by one day.
+Resolution: Fixed UTC-to-local date conversion for date-only fields.
+Status: Resolved

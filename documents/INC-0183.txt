@@ -1,0 +1,4 @@
+INC-0183
+Issue: Newly registered customer is unable to access their account immediately.
+Resolution: Fixed delayed account provisioning.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0192
+Issue: Several customers report intermittent errors throughout the afternoon.
+Resolution: Increased application capacity and fixed an overloaded service dependency.
+Status: Resolved

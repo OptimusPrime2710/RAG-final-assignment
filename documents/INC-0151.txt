@@ -1,0 +1,4 @@
+INC-0151
+Issue: Customer's order is missing from the warehouse queue.
+Resolution: Replayed the order-created event and restored queue synchronization.
+Status: Resolved

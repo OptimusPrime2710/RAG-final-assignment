@@ -1,0 +1,4 @@
+INC-0041
+Issue: Email notifications are not being sent when a ticket is updated.
+Resolution: Restarted the notification worker and repaired its connection to the mail service.
+Status: Resolved

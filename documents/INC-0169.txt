@@ -1,0 +1,4 @@
+INC-0169
+Issue: Customer sees old branding after the company updated the interface.
+Resolution: Cleared CDN assets and corrected cache headers.
+Status: Resolved

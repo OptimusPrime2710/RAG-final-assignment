@@ -1,0 +1,4 @@
+INC-0114
+Issue: Support ticket remains in an open state after the agent closes it.
+Resolution: Corrected the ticket-state update transaction.
+Status: Resolved

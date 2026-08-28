@@ -1,0 +1,4 @@
+INC-0182
+Issue: Account exists but cannot be found using the email address.
+Resolution: Rebuilt the account lookup index.
+Status: Resolved

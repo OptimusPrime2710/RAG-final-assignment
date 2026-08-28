@@ -1,0 +1,4 @@
+INC-0048
+Issue: Daily summary messages arrive at the wrong local time.
+Resolution: Corrected timezone handling in the scheduled notification job.
+Status: Resolved

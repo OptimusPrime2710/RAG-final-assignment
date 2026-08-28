@@ -1,0 +1,4 @@
+INC-0180
+Issue: Worker crashes whenever it processes a particularly large record.
+Resolution: Added payload-size validation and memory-safe processing.
+Status: Resolved

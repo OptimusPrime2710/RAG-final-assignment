@@ -1,0 +1,4 @@
+INC-0157
+Issue: Delivery status says delivered although the carrier reports it is still in transit.
+Resolution: Fixed incorrect mapping of carrier status codes.
+Status: Resolved

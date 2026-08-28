@@ -1,0 +1,4 @@
+INC-0045
+Issue: Customer gets notifications for tickets belonging to another account.
+Resolution: Fixed an incorrect tenant filter in the notification query.
+Status: Resolved

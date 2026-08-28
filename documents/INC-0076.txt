@@ -1,0 +1,4 @@
+INC-0076
+Issue: Profile picture changes are saved but the old image keeps appearing.
+Resolution: Cleared the CDN cache after profile-image updates.
+Status: Resolved

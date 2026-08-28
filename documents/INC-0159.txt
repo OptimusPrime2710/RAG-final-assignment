@@ -1,0 +1,4 @@
+INC-0159
+Issue: Shipping fee is calculated twice during checkout.
+Resolution: Removed duplicate shipping-charge calculation.
+Status: Resolved

@@ -1,0 +1,4 @@
+INC-0120
+Issue: Customer cannot see the response that an agent posted to their ticket.
+Resolution: Fixed a visibility filter applied to agent messages.
+Status: Resolved

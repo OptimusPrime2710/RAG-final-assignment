@@ -1,0 +1,4 @@
+INC-0057
+Issue: Customer cannot update the card used for recurring billing.
+Resolution: Fixed validation for expired billing profiles.
+Status: Resolved

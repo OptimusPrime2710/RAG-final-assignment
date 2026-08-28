@@ -1,0 +1,4 @@
+INC-0063
+Issue: Integration receives an authentication error after credentials were rotated.
+Resolution: Updated the integration secret and restarted the API worker.
+Status: Resolved

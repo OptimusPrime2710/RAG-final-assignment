@@ -1,0 +1,4 @@
+INC-0042
+Issue: Customer receives the same notification three or four times.
+Resolution: Removed duplicate event processing in the notification consumer.
+Status: Resolved

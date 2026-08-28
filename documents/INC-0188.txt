@@ -1,0 +1,4 @@
+INC-0188
+Issue: Invitation expires immediately after being sent.
+Resolution: Corrected invitation-token expiry calculation.
+Status: Resolved

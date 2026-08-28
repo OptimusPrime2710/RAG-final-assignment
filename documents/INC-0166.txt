@@ -1,0 +1,4 @@
+INC-0166
+Issue: Date picker does not open when clicked in Safari.
+Resolution: Fixed a browser-specific event-handling issue.
+Status: Resolved

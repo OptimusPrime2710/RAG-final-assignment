@@ -1,0 +1,4 @@
+INC-0070
+Issue: API rate limits legitimate batch imports too aggressively.
+Resolution: Increased the batch endpoint quota and added separate throttling rules.
+Status: Resolved
