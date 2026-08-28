@@ -533,4 +533,4 @@ Tests:
 Validation:
 - Exact current-corpus query returns `INC-0005.txt` first with score `11.0`.
 - Focused query tests pass: 4 passed.
-- Full regression suite pending final run.
+- Full regression suite passes: 65 passed.
