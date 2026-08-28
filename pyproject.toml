@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-agent-rag"
+version = "0.1.0"
+description = "Plan-driven multi-agent business use-case framework"
+requires-python = ">=3.11"
+dependencies = [
+    "jsonschema>=4.21,<5",
+    "pydantic>=2.7,<3",
+    "python-dotenv>=1.0,<2",
+]
+
+[project.optional-dependencies]
+rag = ["chromadb>=0.5,<1"]
+dev = ["pytest>=8,<9", "pytest-cov>=5,<6"]
+
+[project.scripts]
+rag-framework = "rag_framework.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "criteria": [{"criterion_id": "criteria_001", "passed": true, "evidence": "executor self-validation passed"}],
+  "reason": null,
+  "retry_recommended": false
+}

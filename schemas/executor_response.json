@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExecutorResponse",
+  "type": "object",
+  "required": ["request_id", "status", "result", "output_for_next_executor", "validation", "retry"],
+  "properties": {
+    "request_id": {"type": "string", "minLength": 1},
+    "status": {"type": "string", "enum": ["success", "failure"]},
+    "result": {"type": "object"},
+    "output_for_next_executor": {"type": "object"},
+    "validation": {"type": "object"},
+    "error": {"type": ["string", "null"]},
+    "retry": {"type": "object"}
+  }
+}

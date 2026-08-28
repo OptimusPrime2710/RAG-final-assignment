@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidatorResponse",
+  "type": "object",
+  "required": ["status", "criteria", "retry_recommended"],
+  "properties": {
+    "status": {"type": "string", "enum": ["passed", "failed"]},
+    "criteria": {"type": "array"},
+    "reason": {"type": ["string", "null"]},
+    "retry_recommended": {"type": "boolean"}
+  }
+}

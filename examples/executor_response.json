@@ -1,0 +1,9 @@
+{
+  "request_id": "req_001",
+  "status": "success",
+  "result": {"processed": 2},
+  "output_for_next_executor": {"processed": 2},
+  "validation": {"status": "passed", "checks": ["execution returned without error"]},
+  "error": null,
+  "retry": {"required": false, "attempt": 1, "max_attempts": 3}
+}

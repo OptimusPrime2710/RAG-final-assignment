@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidatorRequest",
+  "type": "object",
+  "required": ["plan_id", "goal_id", "task_id", "success_criteria", "executor_result", "executor_validation"],
+  "properties": {
+    "plan_id": {"type": "string", "minLength": 1},
+    "goal_id": {"type": "string", "minLength": 1},
+    "task_id": {"type": "string", "minLength": 1},
+    "success_criteria": {"type": "array"},
+    "executor_result": {"type": "object"},
+    "executor_validation": {"type": "object"}
+  }
+}

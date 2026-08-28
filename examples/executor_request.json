@@ -1,0 +1,16 @@
+{
+  "request_id": "req_001",
+  "plan_id": "plan_001",
+  "goal_id": "goal_001",
+  "task_id": "task_001",
+  "subtask_id": null,
+  "executor_type": "task_executor",
+  "task": {"name": "index", "description": "Index documents"},
+  "inputs": {},
+  "tools": [],
+  "model_requirement": {"required": false, "size": null},
+  "success_criteria": [],
+  "attempt": 1,
+  "max_attempts": 3,
+  "previous_failure": null
+}
